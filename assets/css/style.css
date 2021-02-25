@@ -1,0 +1,504 @@
+
+@media only screen and (min-width: 1615px)
+    {
+        body
+{
+    font-family: 'Gruppo';
+    font-size: 110%;
+}
+p
+{
+    font-size: 200%;
+}
+ul 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li 
+{
+    float: left;
+}
+
+li a 
+{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover 
+{
+    background-color: #222629;
+}
+
+.active 
+{
+    background-color: #86C232;
+    color: #474B4F;
+}
+ul 
+{
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top:0;
+}
+.background
+{
+    margin-top: 12em;
+    width: 30%;
+    height: 30%;
+    margin-bottom: 10em;
+    margin-left: 55%;
+    border-radius:50%;
+    background: white;
+}
+.intro
+{
+    
+    font-family: "Courier New", Courier, monospace;
+    color: white;
+    font-size: 70px;
+    position: absolute;
+    left: 25%;
+    top: 25%;
+   
+}
+.first
+{
+    background: #474b4F;
+}
+h1
+{
+    text-align: center;
+    text-decoration: underline;
+}
+.info
+{
+    margin-left:20%;
+    margin-right: 20%;
+    font-size:80%;
+    color: #6B6E70;
+}
+.pc1pics
+{
+    margin-top: 2em;
+    width: 20%;
+    height: 20%;
+    margin-bottom: 10em;
+    margin-left: 10%;
+
+}
+.pc2pics
+{
+    margin-top: 2em;
+    width: 20%;
+    height: 20%;
+    margin-bottom: 10em;
+    margin-left: 10%;
+
+}
+.pc3pics
+{
+    margin-top: 2em;
+    width: 20%;
+    height: 20%;
+    margin-bottom: 10em;
+    margin-left: 10%;
+}
+h1
+{
+    font-size:260%;
+    color: #6B6E70;
+}
+h2
+{
+    
+    font-size:220%;
+    color: #6B6E70;
+    margin-left:20%;
+    text-decoration: underline;
+}
+.move
+{
+    font-size: 70%;
+    color: #6B6E70;
+    text-align: center;
+    padding-top:3em;
+}
+a:link 
+{
+    color: #6B6E70;
+}
+
+a:visited 
+{
+    color: #6B6E70;
+}
+
+
+a:hover
+{
+    color: #474B4F;
+}
+
+a:active {
+    color: #222629;
+}
+.info
+{
+    margin-left:20%;
+    margin-right: 20%;
+    font-size:80%;
+    color: #6B6E70;
+    text-align: center;
+}
+.cpu
+{
+    margin-top: 2em;
+    width: 20%;
+    height: 20%;
+    margin-bottom: 10em;
+    margin-left: 20%;
+}
+.cpu1
+{
+    margin-top: 2em;
+    width: 20%;
+    height: 20%;
+    margin-bottom: 10em;
+    margin-left: 15%;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #474B4F;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.container {
+    margin-left: 20em;
+  position: relative;
+  width: 50%;
+}
+.components
+{
+    padding-top:10%;
+    margin-left:34%;
+}
+
+.move2
+{
+    font-size: 70%;
+    color: #6B6E70;
+    text-align: center;
+    padding-top:em;
+    padding-right:15em;
+    margin-left:10em;
+}
+.p5
+        {
+            font-size:15px;
+        font-size:20px;
+        padding-right:2em;
+        margin-left:15%;
+        }
+            .p15
+    {
+        font-size:15px;
+        font-size:20px;
+        padding-right:2em;
+        margin-left:20%;
+    }
+    .info1
+        {
+            text-align: left;
+        }
+
+        .gpu2
+        {
+            width:100%;
+            height:100%;
+        }
+
+}
+@media only screen and (max-width: 1614px)
+{
+.first
+    {
+        display:none;
+    }
+body
+{
+    font-family: 'Gruppo';
+    font-size: 110%;
+}
+p
+{
+    font-size: 200%;
+}
+ul 
+{
+     background:none;
+        padding-top:0px;
+        padding-bottom:0px;
+        margin-left: -40px;
+        margin-right: -10px;
+        margin-top: -13px;
+        font: bold 12px Verdana, sans-serif;
+    color:black;
+}
+
+li 
+{
+    list-style: none;
+        
+        display: block;
+}
+
+li a 
+{
+    text-align:center;
+        margin-left: -10px;
+        margin-right: -10px;
+        padding-top: 10px;
+    padding-bottom: 10px;
+        display:block;
+        border: 1px solid #778;
+        border-bottom: none;
+        background: #222629;
+        text-decoration: none;
+        color: black;
+        border-top-left-radius:0px;
+        border-top-right-radius:0px;
+}
+
+li a:hover 
+{
+    background-color: #222629;
+}
+
+.active 
+{
+    background-color: #86C232;
+    color: #474B4F;
+}
+.background
+{
+    display:none;
+}
+.intro
+{
+    
+    font-family: "Courier New", Courier, monospace;
+    color: white;
+    font-size: 70px;
+    position: absolute;
+    left: 25%;
+    top: 25%;
+   
+}
+.first
+{
+    background: #474b4F;
+}
+h1
+{
+    text-align: center;
+    text-decoration: underline;
+}
+.info
+{
+    margin-left:20%;
+    margin-right: 20%;
+    font-size:80%;
+    color: #6B6E70;
+}
+.pc1pics
+{
+    margin-top: 2em;
+    width: 20%;
+    height: 20%;
+    margin-bottom: 10em;
+    margin-left: 10%;
+
+}
+.pc2pics
+{
+    margin-top: 2em;
+    width: 20%;
+    height: 20%;
+    margin-bottom: 10em;
+    margin-left: 10%;
+
+}
+.pc3pics
+{
+    margin-top: 2em;
+    width: 20%;
+    height: 20%;
+    margin-bottom: 10em;
+    margin-left: 10%;
+}
+h1
+{
+    font-size:260%;
+    color: #6B6E70;
+}
+h2
+{
+    
+    font-size:220%;
+    color: #6B6E70;
+    margin-left:20%;
+    text-decoration: underline;
+}
+.move
+{
+    font-size: 70%;
+    color: #6B6E70;
+    text-align: center;
+    padding-top:3em;
+}
+a:link 
+{
+    color: #6B6E70;
+}
+
+a:visited 
+{
+    color: #6B6E70;
+}
+
+
+a:hover
+{
+    color: #474B4F;
+}
+
+a:active {
+    color: #222629;
+}
+.info
+{
+    margin-left:20%;
+    margin-right: 20%;
+    font-size:80%;
+    color: #6B6E70;
+    text-align: center;
+}
+.cpu
+{
+    margin-top: 2em;
+    width: 20%;
+    height: 20%;
+    margin-bottom: 10em;
+    margin-left: 20%;
+}
+.cpu1
+{
+    margin-top: 2em;
+    width: 20%;
+    height: 20%;
+    margin-bottom: 10em;
+    margin-left: 15%;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #474B4F;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.container {
+display:none;
+}
+.components
+{
+    display:none;
+    padding-top:10%;
+    margin-left:34%;
+}
+
+.move2
+{
+    font-size: 70%;
+    color: #6B6E70;
+    text-align: center;
+    padding-top:em;
+    padding-right:15em;
+    margin-left:10em;
+}
+    .p5
+        {
+            font-size:15px;
+        font-size:20px;
+        padding-right:2em;
+        margin-left:15%;
+        }
+            .p15
+    {
+        font-size:15px;
+        font-size:20px;
+        padding-right:2em;
+        margin-left:20%;
+    }
+    .info1
+        {
+            text-align: left;
+        }
+
+        .gpu2
+        {
+            width:100%;
+            height:100%;
+        }
+}
